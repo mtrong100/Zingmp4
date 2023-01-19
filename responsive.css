@@ -119,9 +119,6 @@
   .wrapper .theme-modal-content {
     max-width: 450px;
   }
-  .wrapper .mobile-player .mobile-control {
-    margin-top: 100px;
-  }
   .song-section,
 .wrapper .main-container .main-content-personal .music-option-all .song-section {
     padding: 0 20px;
@@ -250,9 +247,6 @@
   .wrapper .main-container .main-content-personal .music-option-all .playlist-section .list-box .box-item .box-img {
     width: 100px;
     height: 100px;
-  }
-  .wrapper .mobile-player .mobile-control {
-    margin-top: 80px;
   }
   .wrapper .mobile-player .mobile-control-action #play-btn-mobile,
 .wrapper .mobile-player .mobile-control-action #next-btn-mobile,
