@@ -1,0 +1,1951 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link css owl carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/5f219ec053.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Link file css -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <title>Zing mp3</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- BEGIN SIDE BAR -->
+      <div class="side-bar">
+        <div class="side-bar-logo"></div>
+        <div class="side-bar-menu">
+          <ul class="side-bar-menu-list">
+            <li class="side-bar-menu-item side-bar-tab active" data-sidebar="1">
+              <i class="fa-solid fa-compact-disc"></i>
+              <a href="#" class="side-bar-menu-link">Cá nhân</a>
+            </li>
+            <li class="side-bar-menu-item side-bar-tab" data-sidebar="2">
+              <i class="fa-solid fa-icons"></i>
+              <a href="#" class="side-bar-menu-link">Khám phá</a>
+            </li>
+            <li class="side-bar-menu-item side-bar-tab" data-sidebar="3">
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              <a href="#" class="side-bar-menu-link">Zingchart</a>
+            </li>
+            <li class="side-bar-menu-item">
+              <i class="fa-solid fa-signal"></i>
+              <a href="#" class="side-bar-menu-link">Theo dõi</a>
+            </li>
+            <li class="side-bar-menu-item">
+              <i class="fa-solid fa-radio"></i>
+              <a href="#" class="side-bar-menu-link">Radio</a>
+            </li>
+          </ul>
+        </div>
+        <div class="side-bar-line"></div>
+        <div class="side-bar-bonus">
+          <ul class="side-bar-menu-list">
+            <li class="side-bar-menu-item">
+              <i class="fa-solid fa-music"></i>
+              <a href="#" class="side-bar-menu-link">Nhạc mới</a>
+            </li>
+            <li class="side-bar-menu-item">
+              <i class="fa-solid fa-table-list"></i>
+              <a href="#" class="side-bar-menu-link">Thế loại</a>
+            </li>
+            <li class="side-bar-menu-item">
+              <i class="fa-solid fa-signal"></i>
+              <a href="#" class="side-bar-menu-link">Top 100</a>
+            </li>
+            <li class="side-bar-menu-item">
+              <i class="fa-solid fa-arrow-trend-up"></i>
+              <a href="#" class="side-bar-menu-link">MV</a>
+            </li>
+          </ul>
+          <div class="side-bar-vip">
+            <p class="vip-heading">
+              Nghe nhạc không quảng cáo cùng kho nhạc VIP
+            </p>
+            <div class="vip-upgrade">Nâng cấp VIP</div>
+          </div>
+          <ul class="side-bar-menu-list">
+            <li class="side-bar-menu-item">
+              <i class="fa-solid fa-music"></i>
+              <a href="#" class="side-bar-menu-link">Bài hát</a>
+            </li>
+            <li class="side-bar-menu-item">
+              <i class="fa-solid fa-list-ol"></i>
+              <a href="#" class="side-bar-menu-link">Playlist</a>
+            </li>
+            <li class="side-bar-menu-item">
+              <i class="fa-solid fa-clock"></i>
+              <a href="#" class="side-bar-menu-link">Gần đây</a>
+            </li>
+            <li class="side-bar-menu-item">
+              <i class="fa-solid fa-images"></i>
+              <a href="#" class="side-bar-menu-link">Album</a>
+            </li>
+          </ul>
+        </div>
+        <div class="side-bar-create-playlist">
+          <i class="fa-solid fa-plus"></i>
+          <div class="create-new-playlist">Tạo playlist mới</div>
+        </div>
+      </div>
+      <!-- END SIDE BAR -->
+
+      <!-- BEGIN MAIN -->
+      <main class="main-container">
+        <!--  BEGIN HEADER -->
+        <header class="header-wrapper">
+          <div class="header">
+            <div class="header-action">
+              <i class="fa-solid fa-arrow-left arrow-left"></i>
+              <i class="fa-solid fa-arrow-right arrow-right"></i>
+            </div>
+            <div class="header-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                class="search-box"
+                placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV..."
+              />
+              <div class="header-search-dropdown">
+                <h4 class="dropdown-subtext">Đề xuất cho bạn</h4>
+                <ul class="dropdown-list">
+                  <li class="dropdown-item">zing choice</li>
+                  <li class="dropdown-item">Daydreamer</li>
+                  <li class="dropdown-item">Ông Liêm</li>
+                  <li class="dropdown-item">Ligma là gì ?</li>
+                  <li class="dropdown-item">Burning photos</li>
+                </ul>
+              </div>
+            </div>
+            <div class="header-right">
+              <i class="fa-solid fa-shirt header-icon theme-icon"></i>
+              <i class="fa-solid fa-upload header-icon upload-icon"></i>
+              <i class="fa-solid fa-gear header-icon gear-icon"></i>
+              <div class="header-user">
+                <div class="user-avt">
+                  <img src="./img/avt.jpg" alt="" class="user-avt" />
+                </div>
+                <div class="user-settings">
+                  <ul class="setting-list">
+                    <li class="setting-item gap-10">
+                      <i class="fa-solid fa-circle-user"></i>
+                      Tài khoản
+                    </li>
+                    <li class="setting-item gap-10">
+                      <i class="fa-brands fa-discord"></i>
+                      Discord
+                    </li>
+                    <li class="setting-item gap-10">
+                      <i class="fa-solid fa-shield-heart"></i>
+                      Hỗ trợ
+                    </li>
+                    <li class="setting-item gap-10">
+                      <i class="fa-solid fa-gear"></i>
+                      Cài đặt
+                    </li>
+                    <li class="setting-item gap-10">
+                      <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                      Đăng xuất
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- END HEADER -->
+
+        <!-- MAIN-CONTENT-PERSONAL -->
+        <div
+          class="main-content-personal mt90 main-content active"
+          data-main="1"
+        >
+          <div class="user-profile">
+            <div class="user-info">
+              <div class="user-img">
+                <img src="./img/avt.jpg" alt="" />
+              </div>
+              <h3 class="user-name">Crowbar87</h3>
+            </div>
+            <div class="user-vip">
+              <div class="vip-card">Nâng cấp VIP</div>
+              <i class="fa-solid fa-ellipsis ellipsis-icon"></i>
+            </div>
+          </div>
+          <!-- MUSIC-OPTION-PANEL (SELECT) -->
+          <div class="music-option">
+            <ul class="music-option-list">
+              <li class="music-option-item active" data-tab="1">Tổng quan</li>
+              <li class="music-option-item" data-tab="2">Bài hát</li>
+              <li class="music-option-item" data-tab="3">Playlist</li>
+              <li class="music-option-item" data-tab="4">MV</li>
+              <li class="music-option-item" data-tab="5">Nghệ sĩ</li>
+            </ul>
+          </div>
+          <!-- OPTION-1: ALL -->
+          <div
+            class="music-option-all music-option-panel active"
+            data-panel="1"
+          >
+            <div class="song-heading">
+              <span>Bài hát</span>
+              <div class="song-action">
+                <div class="song-upload gap-10">
+                  <i class="fa-solid fa-upload"></i>
+                  Tải lên
+                </div>
+                <div class="song-play-all gap-10">
+                  <i class="fa-solid fa-play"></i>
+                  Phát tất cả
+                </div>
+              </div>
+            </div>
+            <div class="song-section">
+              <ul class="song-playlist">
+                <li class="song-item" data-index="0">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2738d2cfad007b9431f48aef135"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Roses</h4>
+                      <p class="song-artist">The Chainsmokers</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="1">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2739defcccd1bce0358c4eff826"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Mistletoe</h4>
+                      <p class="song-artist">Justin Bieber</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="2">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2733f8d8c9c0a55216d1b313287"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Watch me miss</h4>
+                      <p class="song-artist">Powfu</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="3">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2734ed727dc12385924bdef0e9f"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">High</h4>
+                      <p class="song-artist">The Chainsmokers</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="4">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2732506a4a9ad9d5d01bcb95443"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Ice heart</h4>
+                      <p class="song-artist">Powfu</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="5">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273da53f97b4b0f1e14d854f777"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Beside you</h4>
+                      <p class="song-artist">Keshi</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="6">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273eaac2a7955f5b8967991cacb"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Die for you</h4>
+                      <p class="song-artist">Joji</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="7">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273e52b6c5cc42dcfe040249bfc"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Christmas love</h4>
+                      <p class="song-artist">Justin Bieber</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="8">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273b3d1baeaddfa1e2a3def3e35"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Robbery</h4>
+                      <p class="song-artist">Juice WRLD</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="9">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273b8dcf92902401976b39590c6"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">D2M</h4>
+                      <p class="song-artist">Vorsa</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="10">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273b140e64decaff8ebdacd391f"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">alien abduction</h4>
+                      <p class="song-artist">mididuck</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="11">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b27313f8c0d00ace4078f140dd56"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">been this way</h4>
+                      <p class="song-artist">Demxntia</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="12">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2732f62812a1bf4c3975cd763f9"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Cherry</h4>
+                      <p class="song-artist">KAYDEN</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="13">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2732b4f378211192cd7ab97805e"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Girl of my dreams</h4>
+                      <p class="song-artist">deadbroke</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="14">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e02a3bbb97cf2fd38cdaca507f4"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">I'm not alright</h4>
+                      <p class="song-artist">Rxseboy</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="playlist-section">
+              <span class="playlist-heading">playlist</span>
+              <ul class="list-box">
+                <li class="box-item">
+                  <div class="box-img">
+                    <img src="./img/nghe nhieu.webp" alt="" />
+                  </div>
+                  <div class="box-heading">4U-On Repeat</div>
+                  <div class="box-desc">Zing MP3</div>
+                </li>
+                <li class="box-item">
+                  <div class="box-img">
+                    <img src="./img/vorsaAlbum.jfif" alt="" />
+                  </div>
+                  <div class="box-heading">anywhere else but here</div>
+                  <div class="box-desc">Vorsa</div>
+                </li>
+                <li class="box-item">
+                  <div class="box-img">
+                    <img src="./img/zingchart.webp" alt="" />
+                  </div>
+                  <div class="box-heading">Bảng xếp hạng Zing</div>
+                  <div class="box-desc">Zing MP3</div>
+                </li>
+                <li class="box-item">
+                  <div class="box-img">
+                    <img src="./img/youtmusic.webp" alt="" />
+                  </div>
+                  <div class="box-heading">Nhạc đề xuất</div>
+                  <div class="box-desc">Zing MP3</div>
+                </li>
+                <li class="box-item">
+                  <div class="box-img">
+                    <img src="./img/alecALbum.jfif" alt="" />
+                  </div>
+                  <div class="box-heading">(Un)Commentary</div>
+                  <div class="box-desc">Alec Benjamin</div>
+                </li>
+              </ul>
+            </div>
+            <div class="mv-section">
+              <span class="mv-heading">MV</span>
+              <ul class="mv-list owl-carousel owl-theme">
+                <li class="mv-item">
+                  <a class="mv-img">
+                    <i class="fa-solid fa-film video-play-icon"></i>
+                    <img src="./img/mean it.jpg" alt="" />
+                  </a>
+                  <div class="mv-desc">
+                    <div class="mv-avt">
+                      <img src="./img/lauv.jfif" alt="" />
+                    </div>
+                    <div class="mv-info">
+                      <h3 class="mv-name fz14">Mean it</h3>
+                      <p class="mv-artist fz12">Lauv & LANY</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="mv-item">
+                  <a class="mv-img">
+                    <i class="fa-solid fa-film video-play-icon"></i>
+                    <img src="./img/juice.jpg" alt="" />
+                  </a>
+                  <div class="mv-desc">
+                    <div class="mv-avt">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2733e0698e4ae5ffb82a005aeeb"
+                        alt=""
+                      />
+                    </div>
+                    <div class="mv-info">
+                      <h3 class="mv-name fz14">Lucid Dreams</h3>
+                      <p class="mv-artist fz12">Juice WRLD</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="mv-item">
+                  <a class="mv-img">
+                    <i class="fa-solid fa-film video-play-icon"></i>
+                    <img src="./img/xxx.jpg" alt="" />
+                  </a>
+                  <div class="mv-desc">
+                    <div class="mv-avt">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b27371af28545729f60b3eca66f7"
+                        alt=""
+                      />
+                    </div>
+                    <div class="mv-info">
+                      <h3 class="mv-name fz14">Ex Bitch</h3>
+                      <p class="mv-artist fz12">XXXTENTACION</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="mv-item">
+                  <a class="mv-img">
+                    <i class="fa-solid fa-film video-play-icon"></i>
+                    <img src="./img/postmalone.jpg" alt="" />
+                  </a>
+                  <div class="mv-desc">
+                    <div class="mv-avt">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e024c65275edad3ab7ddb4ed230"
+                        alt=""
+                      />
+                    </div>
+                    <div class="mv-info">
+                      <h3 class="mv-name fz14">One Right Now</h3>
+                      <p class="mv-artist fz12">Post Malone, The Weeknd</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="artist-section">
+              <span class="artist-heading">Nghệ sĩ</span>
+              <ul class="artist-list owl-carousel owl-theme">
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab6761610000e5eb3c02f4fb4cc9187c488afd50"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">The Chainsmokers</h3>
+                    <p class="artist-follow fz12">879K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e020fc37c895e2e5888060809e7"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">Powfu</h3>
+                    <p class="artist-follow fz12">567K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b27353f6fa0d2589c6a7174f4b81"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">Joji</h3>
+                    <p class="artist-follow fz12">979K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b273ab402f37efc81f385291befb"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">Finding Hope</h3>
+                    <p class="artist-follow fz12">459K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e028ded8a098601168e3842937c"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">DEAMN</h3>
+                    <p class="artist-follow fz12">359K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab6761610000e5eb7770a579b8bfc3d57714fe79"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">Jeremy Zucker</h3>
+                    <p class="artist-follow fz12">889K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- OPTION-2: SONGS -->
+          <div class="music-option-songs music-option-panel" data-panel="2">
+            <div class="song-heading">
+              <span>Bài hát</span>
+              <div class="song-action">
+                <div class="song-upload gap-10">
+                  <i class="fa-solid fa-upload"></i>
+                  Tải lên
+                </div>
+                <div class="song-play-all gap-10">
+                  <i class="fa-solid fa-play"></i>
+                  Phát tất cả
+                </div>
+              </div>
+            </div>
+            <div class="song-section">
+              <ul class="song-playlist">
+                <li class="song-item" data-index="0">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2738d2cfad007b9431f48aef135"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Roses</h4>
+                      <p class="song-artist">The Chainsmokers</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="1">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2739defcccd1bce0358c4eff826"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Mistletoe</h4>
+                      <p class="song-artist">Justin Bieber</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="2">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2733f8d8c9c0a55216d1b313287"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Watch me miss</h4>
+                      <p class="song-artist">Powfu</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="3">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2734ed727dc12385924bdef0e9f"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">High</h4>
+                      <p class="song-artist">The Chainsmokers</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="4">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2732506a4a9ad9d5d01bcb95443"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Ice heart</h4>
+                      <p class="song-artist">Powfu</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="5">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273da53f97b4b0f1e14d854f777"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Beside you</h4>
+                      <p class="song-artist">Keshi</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="6">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273eaac2a7955f5b8967991cacb"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Die for you</h4>
+                      <p class="song-artist">Joji</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="7">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273e52b6c5cc42dcfe040249bfc"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Christmas love</h4>
+                      <p class="song-artist">Justin Bieber</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="8">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273b3d1baeaddfa1e2a3def3e35"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Robbery</h4>
+                      <p class="song-artist">Juice WRLD</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="9">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273b8dcf92902401976b39590c6"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">D2M</h4>
+                      <p class="song-artist">Vorsa</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="10">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b273b140e64decaff8ebdacd391f"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">alien abduction</h4>
+                      <p class="song-artist">mididuck</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="11">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b27313f8c0d00ace4078f140dd56"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">been this way</h4>
+                      <p class="song-artist">Demxntia</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="12">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2732f62812a1bf4c3975cd763f9"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Cherry</h4>
+                      <p class="song-artist">KAYDEN</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="13">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2732b4f378211192cd7ab97805e"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">Girl of my dreams</h4>
+                      <p class="song-artist">deadbroke</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+                <li class="song-item" data-index="14">
+                  <div class="song-left">
+                    <div class="song-img">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e02a3bbb97cf2fd38cdaca507f4"
+                        alt=""
+                      />
+                    </div>
+                    <div class="song-desc">
+                      <h4 class="song-name">I'm not alright.</h4>
+                      <p class="song-artist">Rxseboy</p>
+                    </div>
+                  </div>
+                  <div class="song-right">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <span class="song-time">03:50</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- OPTION-3: PLAYLIST -->
+          <div class="music-option-playlist music-option-panel" data-panel="3">
+            <div class="playlist-section">
+              <span class="playlist-heading">playlist</span>
+              <ul class="list-box">
+                <li class="box-item">
+                  <div class="box-img">
+                    <img src="./img/nghe nhieu.webp" alt="" />
+                  </div>
+                  <div class="box-heading">4U-On Repeat</div>
+                  <div class="box-desc">Zing MP3</div>
+                </li>
+                <li class="box-item">
+                  <div class="box-img">
+                    <img src="./img/vorsaAlbum.jfif" alt="" />
+                  </div>
+                  <div class="box-heading">anywhere else but here</div>
+                  <div class="box-desc">Vorsa</div>
+                </li>
+                <li class="box-item">
+                  <div class="box-img">
+                    <img src="./img/zingchart.webp" alt="" />
+                  </div>
+                  <div class="box-heading">Bảng xếp hạng Zing</div>
+                  <div class="box-desc">Zing MP3</div>
+                </li>
+                <li class="box-item">
+                  <div class="box-img">
+                    <img src="./img/youtmusic.webp" alt="" />
+                  </div>
+                  <div class="box-heading">Nhạc đề xuất</div>
+                  <div class="box-desc">Zing MP3</div>
+                </li>
+                <li class="box-item">
+                  <div class="box-img">
+                    <img src="./img/alecALbum.jfif" alt="" />
+                  </div>
+                  <div class="box-heading">(Un)Commentary</div>
+                  <div class="box-desc">Alec Benjamin</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- OPTION-4: MV -->
+          <div class="music-option-mv music-option-panel" data-panel="4">
+            <div class="mv-section">
+              <span class="mv-heading">MV</span>
+              <ul class="mv-list owl-carousel owl-theme">
+                <li class="mv-item">
+                  <a class="mv-img">
+                    <i class="fa-solid fa-film video-play-icon"></i>
+                    <img src="./img/mean it.jpg" alt="" />
+                  </a>
+                  <div class="mv-desc">
+                    <div class="mv-avt">
+                      <img src="./img/lauv.jfif" alt="" />
+                    </div>
+                    <div class="mv-info">
+                      <h3 class="mv-name fz14">Mean it</h3>
+                      <p class="mv-artist fz12">Lauv & LANY</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="mv-item">
+                  <a class="mv-img">
+                    <i class="fa-solid fa-film video-play-icon"></i>
+                    <img src="./img/juice.jpg" alt="" />
+                  </a>
+                  <div class="mv-desc">
+                    <div class="mv-avt">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b2733e0698e4ae5ffb82a005aeeb"
+                        alt=""
+                      />
+                    </div>
+                    <div class="mv-info">
+                      <h3 class="mv-name fz14">Lucid Dreams</h3>
+                      <p class="mv-artist fz12">Juice WRLD</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="mv-item">
+                  <a class="mv-img">
+                    <i class="fa-solid fa-film video-play-icon"></i>
+                    <img src="./img/xxx.jpg" alt="" />
+                  </a>
+                  <div class="mv-desc">
+                    <div class="mv-avt">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d0000b27371af28545729f60b3eca66f7"
+                        alt=""
+                      />
+                    </div>
+                    <div class="mv-info">
+                      <h3 class="mv-name fz14">Ex Bitch</h3>
+                      <p class="mv-artist fz12">XXXTENTACION</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="mv-item">
+                  <a class="mv-img">
+                    <i class="fa-solid fa-film video-play-icon"></i>
+                    <img src="./img/postmalone.jpg" alt="" />
+                  </a>
+                  <div class="mv-desc">
+                    <div class="mv-avt">
+                      <img
+                        src="https://i.scdn.co/image/ab67616d00001e024c65275edad3ab7ddb4ed230"
+                        alt=""
+                      />
+                    </div>
+                    <div class="mv-info">
+                      <h3 class="mv-name fz14">One Right Now</h3>
+                      <p class="mv-artist fz12">Post Malone, The Weeknd</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- OPTION-5: ARTISTS -->
+          <div class="music-option-artist music-option-panel" data-panel="5">
+            <div class="artist-section">
+              <span class="artist-heading">Nghệ sĩ</span>
+              <ul class="artist-list owl-carousel owl-theme">
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab6761610000e5eb3c02f4fb4cc9187c488afd50"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">The Chainsmokers</h3>
+                    <p class="artist-follow fz12">879K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e020fc37c895e2e5888060809e7"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">Powfu</h3>
+                    <p class="artist-follow fz12">567K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b27353f6fa0d2589c6a7174f4b81"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">Joji</h3>
+                    <p class="artist-follow fz12">979K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b273ab402f37efc81f385291befb"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">Finding Hope</h3>
+                    <p class="artist-follow fz12">459K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e028ded8a098601168e3842937c"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">DEAMN</h3>
+                    <p class="artist-follow fz12">359K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+                <li class="artist-item">
+                  <div class="artist-img">
+                    <img
+                      src="https://i.scdn.co/image/ab6761610000e5eb7770a579b8bfc3d57714fe79"
+                      alt=""
+                    />
+                  </div>
+                  <div class="artist-info">
+                    <h3 class="artist-name fz14">Jeremy Zucker</h3>
+                    <p class="artist-follow fz12">889K followers</p>
+                    <div class="artist-action">
+                      <i class="fa-solid fa-music"></i>
+                      Góc nhạc
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- MAIN-CONTENT-DISCOVERY -->
+        <div class="main-content-discovery mt90 main-content" data-main="2">
+          <div class="playlist-section">
+            <span class="playlist-heading">playlist</span>
+            <ul class="list-box">
+              <li class="box-item">
+                <div class="box-img">
+                  <img src="./img/nghe nhieu.webp" alt="" />
+                </div>
+                <div class="box-heading">4U-On Repeat</div>
+                <div class="box-desc">Zing MP3</div>
+              </li>
+              <li class="box-item">
+                <div class="box-img">
+                  <img src="./img/vorsaAlbum.jfif" alt="" />
+                </div>
+                <div class="box-heading">anywhere else but here</div>
+                <div class="box-desc">Vorsa</div>
+              </li>
+              <li class="box-item">
+                <div class="box-img">
+                  <img src="./img/zingchart.webp" alt="" />
+                </div>
+                <div class="box-heading">Bảng xếp hạng Zing</div>
+                <div class="box-desc">Zing MP3</div>
+              </li>
+              <li class="box-item">
+                <div class="box-img">
+                  <img src="./img/youtmusic.webp" alt="" />
+                </div>
+                <div class="box-heading">Nhạc đề xuất</div>
+                <div class="box-desc">Zing MP3</div>
+              </li>
+              <li class="box-item">
+                <div class="box-img">
+                  <img src="./img/alecALbum.jfif" alt="" />
+                </div>
+                <div class="box-heading">(Un)Commentary</div>
+                <div class="box-desc">Alec Benjamin</div>
+              </li>
+            </ul>
+          </div>
+          <div class="mv-section">
+            <span class="mv-heading">MV</span>
+            <ul class="mv-list owl-carousel owl-theme">
+              <li class="mv-item">
+                <a class="mv-img">
+                  <i class="fa-solid fa-film video-play-icon"></i>
+                  <img src="./img/mean it.jpg" alt="" />
+                </a>
+                <div class="mv-desc">
+                  <div class="mv-avt">
+                    <img src="./img/lauv.jfif" alt="" />
+                  </div>
+                  <div class="mv-info">
+                    <h3 class="mv-name fz14">Mean it</h3>
+                    <p class="mv-artist fz12">Lauv & LANY</p>
+                  </div>
+                </div>
+              </li>
+              <li class="mv-item">
+                <a class="mv-img">
+                  <i class="fa-solid fa-film video-play-icon"></i>
+                  <img src="./img/juice.jpg" alt="" />
+                </a>
+                <div class="mv-desc">
+                  <div class="mv-avt">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b2733e0698e4ae5ffb82a005aeeb"
+                      alt=""
+                    />
+                  </div>
+                  <div class="mv-info">
+                    <h3 class="mv-name fz14">Lucid Dreams</h3>
+                    <p class="mv-artist fz12">Juice WRLD</p>
+                  </div>
+                </div>
+              </li>
+              <li class="mv-item">
+                <a class="mv-img">
+                  <i class="fa-solid fa-film video-play-icon"></i>
+                  <img src="./img/xxx.jpg" alt="" />
+                </a>
+                <div class="mv-desc">
+                  <div class="mv-avt">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b27371af28545729f60b3eca66f7"
+                      alt=""
+                    />
+                  </div>
+                  <div class="mv-info">
+                    <h3 class="mv-name fz14">Ex Bitch</h3>
+                    <p class="mv-artist fz12">XXXTENTACION</p>
+                  </div>
+                </div>
+              </li>
+              <li class="mv-item">
+                <a class="mv-img">
+                  <i class="fa-solid fa-film video-play-icon"></i>
+                  <img src="./img/postmalone.jpg" alt="" />
+                </a>
+                <div class="mv-desc">
+                  <div class="mv-avt">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e024c65275edad3ab7ddb4ed230"
+                      alt=""
+                    />
+                  </div>
+                  <div class="mv-info">
+                    <h3 class="mv-name fz14">One Right Now</h3>
+                    <p class="mv-artist fz12">Post Malone, The Weeknd</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="artist-section">
+            <span class="artist-heading">Nghệ sĩ</span>
+            <ul class="artist-list owl-carousel owl-theme">
+              <li class="artist-item">
+                <div class="artist-img">
+                  <img
+                    src="https://i.scdn.co/image/ab6761610000e5eb3c02f4fb4cc9187c488afd50"
+                    alt=""
+                  />
+                </div>
+                <div class="artist-info">
+                  <h3 class="artist-name fz14">The Chainsmokers</h3>
+                  <p class="artist-follow fz12">879K followers</p>
+                  <div class="artist-action">
+                    <i class="fa-solid fa-music"></i>
+                    Góc nhạc
+                  </div>
+                </div>
+              </li>
+              <li class="artist-item">
+                <div class="artist-img">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e020fc37c895e2e5888060809e7"
+                    alt=""
+                  />
+                </div>
+                <div class="artist-info">
+                  <h3 class="artist-name fz14">Powfu</h3>
+                  <p class="artist-follow fz12">567K followers</p>
+                  <div class="artist-action">
+                    <i class="fa-solid fa-music"></i>
+                    Góc nhạc
+                  </div>
+                </div>
+              </li>
+              <li class="artist-item">
+                <div class="artist-img">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d0000b27353f6fa0d2589c6a7174f4b81"
+                    alt=""
+                  />
+                </div>
+                <div class="artist-info">
+                  <h3 class="artist-name fz14">Joji</h3>
+                  <p class="artist-follow fz12">979K followers</p>
+                  <div class="artist-action">
+                    <i class="fa-solid fa-music"></i>
+                    Góc nhạc
+                  </div>
+                </div>
+              </li>
+              <li class="artist-item">
+                <div class="artist-img">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d0000b273ab402f37efc81f385291befb"
+                    alt=""
+                  />
+                </div>
+                <div class="artist-info">
+                  <h3 class="artist-name fz14">Finding Hope</h3>
+                  <p class="artist-follow fz12">459K followers</p>
+                  <div class="artist-action">
+                    <i class="fa-solid fa-music"></i>
+                    Góc nhạc
+                  </div>
+                </div>
+              </li>
+              <li class="artist-item">
+                <div class="artist-img">
+                  <img
+                    src="https://i.scdn.co/image/ab67616d00001e028ded8a098601168e3842937c"
+                    alt=""
+                  />
+                </div>
+                <div class="artist-info">
+                  <h3 class="artist-name fz14">DEAMN</h3>
+                  <p class="artist-follow fz12">359K followers</p>
+                  <div class="artist-action">
+                    <i class="fa-solid fa-music"></i>
+                    Góc nhạc
+                  </div>
+                </div>
+              </li>
+              <li class="artist-item">
+                <div class="artist-img">
+                  <img
+                    src="https://i.scdn.co/image/ab6761610000e5eb7770a579b8bfc3d57714fe79"
+                    alt=""
+                  />
+                </div>
+                <div class="artist-info">
+                  <h3 class="artist-name fz14">Jeremy Zucker</h3>
+                  <p class="artist-follow fz12">889K followers</p>
+                  <div class="artist-action">
+                    <i class="fa-solid fa-music"></i>
+                    Góc nhạc
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- MAIN-CONTENT-ZINGCHART -->
+        <div class="main-content-zingchart mt90 main-content" data-main="3">
+          <div class="song-section">
+            <span class="zingchart-heading">#Zingchart</span>
+            <ul class="song-playlist">
+              <li class="song-item" data-index="0">
+                <div class="song-left">
+                  <div class="zingchart-number zingchart-number-first">1</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b2738d2cfad007b9431f48aef135"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">Roses</h4>
+                    <p class="song-artist">The Chainsmokers</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="1">
+                <div class="song-left">
+                  <div class="zingchart-number zingchart-number-second">2</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b2739defcccd1bce0358c4eff826"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">Mistletoe</h4>
+                    <p class="song-artist">Justin Bieber</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="2">
+                <div class="song-left">
+                  <div class="zingchart-number zingchart-number-third">3</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b2733f8d8c9c0a55216d1b313287"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">Watch me miss</h4>
+                    <p class="song-artist">Powfu</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="3">
+                <div class="song-left">
+                  <div class="zingchart-number">4</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b2734ed727dc12385924bdef0e9f"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">High</h4>
+                    <p class="song-artist">The Chainsmokers</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="4">
+                <div class="song-left">
+                  <div class="zingchart-number">5</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b2732506a4a9ad9d5d01bcb95443"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">Ice heart</h4>
+                    <p class="song-artist">Powfu</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="5">
+                <div class="song-left">
+                  <div class="zingchart-number">6</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b273da53f97b4b0f1e14d854f777"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">Beside you</h4>
+                    <p class="song-artist">Keshi</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="6">
+                <div class="song-left">
+                  <div class="zingchart-number">7</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b273eaac2a7955f5b8967991cacb"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">Die for you</h4>
+                    <p class="song-artist">Joji</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="7">
+                <div class="song-left">
+                  <div class="zingchart-number">8</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b273e52b6c5cc42dcfe040249bfc"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">Christmas love</h4>
+                    <p class="song-artist">Justin Bieber</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="8">
+                <div class="song-left">
+                  <div class="zingchart-number">9</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b273b3d1baeaddfa1e2a3def3e35"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">Robbery</h4>
+                    <p class="song-artist">Juice WRLD</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="9">
+                <div class="song-left">
+                  <div class="zingchart-number">10</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b273b8dcf92902401976b39590c6"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">D2M</h4>
+                    <p class="song-artist">Vorsa</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="10">
+                <div class="song-left">
+                  <div class="zingchart-number">11</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b273b140e64decaff8ebdacd391f"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">alien abduction</h4>
+                    <p class="song-artist">mididuck</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="11">
+                <div class="song-left">
+                  <div class="zingchart-number">12</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b27313f8c0d00ace4078f140dd56"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">been this way</h4>
+                    <p class="song-artist">Demxntia</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="12">
+                <div class="song-left">
+                  <div class="zingchart-number">13</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b2732f62812a1bf4c3975cd763f9"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">Cherry</h4>
+                    <p class="song-artist">KAYDEN</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="13">
+                <div class="song-left">
+                  <div class="zingchart-number">14</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d0000b2732b4f378211192cd7ab97805e"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">Girl of my dreams</h4>
+                    <p class="song-artist">deadbroke</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+              <li class="song-item" data-index="14">
+                <div class="song-left">
+                  <div class="zingchart-number">15</div>
+                  <div class="zingchart-line">-</div>
+                  <div class="song-img">
+                    <img
+                      src="https://i.scdn.co/image/ab67616d00001e02a3bbb97cf2fd38cdaca507f4"
+                      alt=""
+                    />
+                  </div>
+                  <div class="song-desc">
+                    <h4 class="song-name">I'm not alright.</h4>
+                    <p class="song-artist">Vorsa</p>
+                  </div>
+                </div>
+                <div class="song-right">
+                  <i class="fa-regular fa-heart heart-icon"></i>
+                  <span class="song-time">03:50</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
+      <!-- END MAIN -->
+
+      <!-- BEGIN MUSIC CONTROL -->
+      <div class="music-control">
+        <div class="flex-wrap">
+          <div class="flex-left">
+            <div class="music-control-left">
+              <div class="music-control-left-image">
+                <img
+                  src="https://images.genius.com/2d5fc41144c1ff554dcfb412a95a558e.1000x1000x1.jpg"
+                  alt=""
+                  class="song-thumbnail"
+                />
+              </div>
+              <div class="music-control-left-info">
+                <h3 class="song-title">Roses</h3>
+                <p class="artist fz12">The Chainsmokers</p>
+              </div>
+              <div class="music-control-left-action">
+                <i class="fa-solid fa-heart heart-icon"></i>
+                <i class="fa-solid fa-ellipsis ellipsis-icon"></i>
+              </div>
+            </div>
+          </div>
+          <div class="flex-center">
+            <div class="music-control-center">
+              <div class="music-control-center-action">
+                <i id="shuffle-btn" class="fa-solid fa-shuffle fz20"></i>
+                <i id="prev-btn" class="fa-solid fa-caret-left fz25"></i>
+                <i id="play-btn" class="fa-regular fa-circle-play fz35"></i>
+                <i id="next-btn" class="fa-solid fa-caret-right fz25"></i>
+                <i id="repeat-btn" class="fa-solid fa-repeat fz20"></i>
+              </div>
+              <div class="progress-area">
+                <p class="time-start">00:00</p>
+                <div class="input-wrapper">
+                  <input
+                    type="range"
+                    id="progress-bar"
+                    class="progress-bar"
+                    value="0"
+                    min="0"
+                    max="100"
+                  />
+                </div>
+                <audio id="song" src=""></audio>
+                <p class="time-end">03:20</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-right">
+            <div class="music-control-right">
+              <i class="fa-regular fa-images"></i>
+              <i class="fa-solid fa-microphone"></i>
+              <i class="fa-solid fa-podcast"></i>
+              <i class="fa-solid fa-volume-high"></i>
+              <div class="volume-area">
+                <input
+                  type="range"
+                  id="volume-bar"
+                  value="100"
+                  min="0"
+                  max="100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END MUSIC CONTROL -->
+
+      <!-- BEGIN THEME-MODAL -->
+      <div class="theme-modal">
+        <div class="theme-modal-overlay"></div>
+        <div class="theme-modal-content">
+          <div class="theme-top">
+            <h3 class="theme-heading">Giao diện</h3>
+            <i class="fa-solid fa-xmark close-icon"></i>
+          </div>
+          <ul class="theme-list">
+            <li class="theme-item" data-color="1">
+              <div class="theme-color dark-purple"></div>
+              <p class="theme-name">Dark purple</p>
+            </li>
+            <li class="theme-item" data-color="2">
+              <div class="theme-color light-purple"></div>
+              <p class="theme-name">Light purple</p>
+            </li>
+            <li class="theme-item" data-color="3">
+              <div class="theme-color dark-blue"></div>
+              <p class="theme-name">Dark blue</p>
+            </li>
+            <li class="theme-item" data-color="4">
+              <div class="theme-color dark-color"></div>
+              <p class="theme-name">Dark color</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- END THEME-MODAL -->
+
+      <!-- BEGIN MOBILE-TAB -->
+      <div class="mobile-tab">
+        <ul class="mobile-list">
+          <li class="mobile-item side-bar-tab active" data-sidebar="1">
+            <i class="fa-solid fa-compact-disc"></i>
+            <a href="#" class="mobile-link">Cá nhân</a>
+          </li>
+          <li class="mobile-item side-bar-tab" data-sidebar="2">
+            <i class="fa-solid fa-icons"></i>
+            <a href="#" class="mobile-link">Khám phá</a>
+          </li>
+          <li class="mobile-item side-bar-tab" data-sidebar="3">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+            <a href="#" class="mobile-link">Zingchart</a>
+          </li>
+          <li class="mobile-item">
+            <i class="fa-solid fa-signal"></i>
+            <a href="#" class="mobile-link">Theo dõi</a>
+          </li>
+          <li class="mobile-item">
+            <i class="fa-solid fa-radio"></i>
+            <a href="#" class="mobile-link">Radio</a>
+          </li>
+        </ul>
+      </div>
+      <!-- END MOBILE-TAB -->
+
+      <!-- MOBILE-PLAYER ACTIVE -->
+      <div class="mobile-player">
+        <div class="mobile-heading">
+          <div class="mobile-logo">
+            <img
+              src="https://sites.google.com/site/taizingmp32017/_/rsrc/1509441614107/config/customLogo.gif"
+              alt=""
+            />
+          </div>
+          <i class="fa-solid fa-xmark mobile-close-icon"></i>
+        </div>
+        <div class="mobile-body">
+          <div class="mobile-img">
+            <img
+              src="https://i.scdn.co/image/ab67616d0000b2738d2cfad007b9431f48aef135"
+              alt=""
+              class="song-thumbnail"
+            />
+          </div>
+          <div class="mobile-music-info">
+            <h3 class="song-title">Roses</h3>
+            <p class="artist">The Chainsmokers</p>
+          </div>
+        </div>
+        <div class="mobile-control">
+          <div class="mobile-control-action">
+            <i id="shuffle-btn-mobile" class="fa-solid fa-shuffle"></i>
+            <i id="prev-btn-mobile" class="fa-solid fa-caret-left"></i>
+            <i id="play-btn-mobile" class="fa-regular fa-circle-play"></i>
+            <i id="next-btn-mobile" class="fa-solid fa-caret-right"></i>
+            <i id="repeat-btn-mobile" class="fa-solid fa-repeat"></i>
+          </div>
+          <div class="progress-area">
+            <p class="time-start">00:00</p>
+            <div class="input-wrapper">
+              <input
+                type="range"
+                id="progress-bar"
+                class="progress-bar"
+                value="0"
+                min="0"
+                max="100"
+              />
+            </div>
+            <audio id="song" src=""></audio>
+            <p class="time-end">03:20</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- Link js owl carousel -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <!-- Link file javascript -->
+  <script src="./songs.js"></script>
+  <script src="./script.js"></script>
+  <script src="./owlCarousel.js"></script>
+</html>
