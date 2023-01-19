@@ -179,6 +179,10 @@
     width: 200px;
     height: 200px;
   }
+  .wrapper .mobile-player .mobile-control .progress-area .time-start,
+.wrapper .mobile-player .mobile-control .progress-area .time-end {
+    font-size: 12px;
+  }
   .wrapper .mobile-player .mobile-body {
     gap: 20px;
   }
@@ -260,7 +264,7 @@
     font-size: 40px;
   }
   .wrapper .mobile-player .mobile-control .progress-area {
-    width: 100%;
+    width: 80%;
   }
   .wrapper .mobile-player .mobile-heading .mobile-logo {
     width: 150px;

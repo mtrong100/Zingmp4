@@ -29,6 +29,8 @@ window.addEventListener("load", function () {
   const themeItems = document.querySelectorAll(".theme-item");
   const body = document.querySelector("body");
   const musicControl = document.querySelector(".music-control");
+  const mobileTab = document.querySelector(".mobile-tab");
+  const mobilePlayer = document.querySelector(".mobile-player");
 
   /* Const color variables */
   const darkPurpleColor = `#${"170f23"}`;
@@ -303,12 +305,16 @@ window.addEventListener("load", function () {
         musicControl.style.backgroundColor = darkPurpleColor;
         header.style.backgroundColor = darkPurpleColor;
         modalContent.style.backgroundColor = darkPurpleColor;
+        mobileTab.style.backgroundColor = darkPurpleColor;
+        mobilePlayer.style.backgroundColor = darkPurpleColor;
         userSettings.style.backgroundColor = blackColor;
         musicControl.style.backgroundImage = "url()";
         modal.classList.remove("show");
         break;
       case "2":
         body.style.backgroundColor = lightPurpleColor;
+        mobileTab.style.backgroundColor = lightPurpleColor;
+        mobilePlayer.style.backgroundColor = lightPurpleColor;
         modalContent.style.backgroundColor = "#6a39af";
         musicControl.style.backgroundImage = "url(./img/musiccontrol.png)";
         header.style.backgroundColor = "#411465";
@@ -317,6 +323,8 @@ window.addEventListener("load", function () {
       case "3":
         body.style.backgroundColor = darkBlueColor;
         modalContent.style.backgroundColor = darkBlueColor;
+        mobileTab.style.backgroundColor = darkBlueColor;
+        mobilePlayer.style.backgroundColor = darkBlueColor;
         musicControl.style.backgroundImage = "url(./img/musiccontrol.png)";
         header.style.backgroundColor = darkBlueColor;
         userSettings.style.backgroundColor = blackColor;
@@ -327,6 +335,8 @@ window.addEventListener("load", function () {
       case "4":
         body.style.backgroundColor = darkColor;
         modalContent.style.backgroundColor = darkColor;
+        mobileTab.style.backgroundColor = darkColor;
+        mobilePlayer.style.backgroundColor = darkColor;
         musicControl.style.backgroundImage = "url(./img/musiccontrol.png)";
         header.style.backgroundColor = darkColor;
         userSettings.style.backgroundColor = blackColor;
@@ -416,7 +426,6 @@ window.addEventListener("load", function () {
 
   /* --------------------------MOBILE-SECTION--------------------------------- */
 
-  const mobilePlayer = document.querySelector(".mobile-player");
   const mobileToggle = document.querySelector(".music-control-left-image");
   mobileToggle.addEventListener("click", function () {
     if (window.matchMedia("(max-width: 768px)").matches) {
