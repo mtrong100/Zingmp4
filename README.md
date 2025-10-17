@@ -3,7 +3,8 @@
 **Zingmp4** — bản “fake clone” của Zing, dự án front-end đơn giản để giả lập giao diện nghe nhạc.  
 Dự án được phát triển trên HTML / CSS / JavaScript để học tập & trình diễn.
 
-> *“zing fake clone by deadboy”* ([github.com](https://github.com/mtrong100/Zingmp4))
+## 📸 Screenshot
+![Screenshot](https://i.postimg.cc/rw1HnVHv/Screenshot-2025-10-17-153951.png)
 
 ## 📁 Cấu trúc thư mục
 
